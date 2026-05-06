@@ -1,0 +1,31 @@
+{
+    "id": "A3E67784",
+    "path": "~/Desktop/RProjects/thoughtful-traveler/posts/misool.qmd",
+    "project_path": "posts/misool.qmd",
+    "type": "quarto_markdown",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1777645041462.0,
+    "source_on_save": true,
+    "relative_order": 3,
+    "properties": {
+        "rmdVisualMode": "false",
+        "rmdVisualWrapConfigured": "true",
+        "source_window_id": "",
+        "Source": "Source",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "cursorPosition": "96,13",
+        "scrollLine": "0",
+        "rmdVisualModeLocation": "2039:1392.5"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1778080577,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1778080577123,
+    "read_only": false,
+    "read_only_alternatives": []
+}
