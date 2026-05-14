@@ -1,0 +1,29 @@
+---
+title: "Field Notes"
+---
+
+::: {.about-section}
+
+## Field Notes
+
+A collection of observations, questions, and stories from the road — about sustainability, conservation, tourism, and the places worth protecting.
+
+These are not ranked lists or recycled travel tips.
+
+They are notes from the places that make us pay attention.
+
+------------------------------------------------------------------------
+
+## Essays
+
+### [What Makes a Place Worth Protecting?](posts/what-makes-a-place-worth-protecting.qmd)
+
+A reflection on travel, conservation, and the difference between seeing a place and actually caring what happens to it.
+
+------------------------------------------------------------------------
+
+### [Luxury Should Earn Its Footprint](posts/luxury-should-earn-its-footprint.qmd)
+
+A look at luxury travel, sustainability, and why thoughtful hospitality matters more than performative eco branding.
+
+:::

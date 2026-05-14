@@ -1,0 +1,53 @@
+---
+title: "Contact"
+---
+
+::: {.about-section}
+
+## Contact Us
+
+Have a place we should look into?  
+A hotel making sustainability claims that feel a little too polished?  
+A thoughtful stay that actually walks the talk?
+
+Send it our way.
+
+```{=html}
+<form class="contact-form" action="https://formspree.io/f/YOUR-FORM-ID" method="POST">
+
+  <div class="form-row">
+    <div class="form-group">
+      <label for="name">Name <span>*</span></label>
+      <input type="text" id="name" name="name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="phone">Phone</label>
+      <input type="text" id="phone" name="phone">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email <span>*</span></label>
+    <input type="email" id="email" name="email" required>
+  </div>
+
+  <div class="form-group">
+    <label for="message">Message <span>*</span></label>
+    <textarea id="message" name="message" rows="7" required></textarea>
+  </div>
+
+  <button type="submit">Send Message</button>
+
+</form>
+```
+
+------------------------------------------------------------------------
+
+## No Fluff Promise
+
+We are interested in honest conversations, not paid praise.
+
+If a stay is hosted, sponsored, gifted, discounted, or connected to a brand partnership, that will always be clearly disclosed.
+
+:::

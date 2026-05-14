@@ -38,7 +38,7 @@ h3 {
 .hero {
   position: relative;
   min-height: 560px;
-  background-image: linear-gradient(rgba(0,0,0,.25), rgba(0,0,0,.35)), url("images/home/canyon-hero.jpg");
+  background-image: linear-gradient(rgba(0,0,0,.25), rgba(0,0,0,.35)), url("images/home/canyon-hero.webp");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -84,6 +84,122 @@ h3 {
   text-transform: uppercase;
   opacity: 0.85;
 }
+.about-hero-image {
+  position: relative;
+  margin: 3rem 0 4rem 0;
+}
+.about-hero-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(0,0,0,0.30) 0%,
+    rgba(0,0,0,0.12) 35%,
+    rgba(0,0,0,0.00) 65%
+  );
+  pointer-events: none;
+}
+
+.about-hero-image img {
+  width: 100%;
+  border-radius: 0;
+  display: block;
+}
+
+.about-hero-text {
+  position: absolute;
+  top: 2%;
+  left: 5%;
+  max-width: 520px;
+  color: white;
+   z-index: 2;
+}
+
+.about-hero-text h1 {
+  color: white;
+  font-size: 3.6rem;
+  line-height: 1.05;
+  text-shadow: 0 3px 14px rgba(0,0,0,0.45);
+  margin-bottom: 1rem;
+}
+
+.about-hero-text p {
+  font-size: 1.15rem;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.45);
+}
+
+.diving-photo-wrapper {
+  position: relative;
+  max-width: 900px;
+  margin: 3rem auto;
+}
+
+.about-inline-image {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.diving-caption {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  color: rgba(255,255,255,0.95);
+  font-style: italic;
+  font-size: 1.5rem;
+  font-family: 'Playfair Display', serif;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.75);
+  white-space: nowrap;
+  z-index: 2;
+}
+
+.diving-caption p {
+  color: rgba(255,255,255,0.95) !important;
+  margin: 0;
+}
+
+.hut-photo-wrapper {
+  position: relative;
+  max-width: 900px;
+  margin: 4rem auto;
+}
+
+.hut-inline-image {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.hut-caption {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  max-width: 55%;
+  color: rgba(255,255,255,0.88) !important;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.7);
+  z-index: 2;
+}
+
+.hut-caption p,
+.hut-caption em {
+  color: rgba(255,255,255,0.88) !important;
+  margin: 0;
+}
+
+.post-hero-image {
+  width: 100%;
+  max-height: 700px;
+  object-fit: cover;
+  border-radius: 14px;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
 .section-soft {
   background-color: #e8dfd1;
   padding: 3rem;
@@ -156,4 +272,60 @@ a:hover {
 .about-section img {
   border-radius: 12px;
   margin: 1.5rem 0 2rem 0;
+}
+.contact-form {
+  margin-top: 2rem;
+}
+
+.form-row {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  color: #2d352c;
+}
+
+.contact-form label span {
+  color: #b7472a;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.9rem;
+  border: 2px solid #2d352c;
+  background-color: #fffaf2;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  background-color: #536b42;
+  color: white;
+  border: none;
+  padding: 0.9rem 1.6rem;
+  border-radius: 999px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #2f4f2f;
+}
+
+@media (max-width: 700px) {
+  .form-row {
+    flex-direction: column;
+    gap: 0;
+  }
 }

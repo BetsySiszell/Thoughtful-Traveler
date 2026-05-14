@@ -16,6 +16,12 @@ website:
             text: Misool Eco Resort
           - href: posts/morgans-rock.qmd
             text: Morgan's Rock
+      - href: field-notes.qmd
+        text: Field Notes
+      - href: faq.qmd
+        text: FAQ
+      - href: contact.qmd
+        text: Contact
 
 format:
   html:

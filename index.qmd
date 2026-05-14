@@ -20,18 +20,17 @@ from backcountry huts to eco resorts that actually walk the talk.
 :::::::::::::::::::::::: section-soft
 ## Beautiful places. Honest reviews.
 
-The No Fluff Traveler is built around a simple idea:
+The No Fluff Traveler exists for people who want more than curated marketing and recycled travel lists.
 
-A place can look incredible online and still miss the mark in real life.
+Some places are genuinely special.
 
-We care about what actually matters once you arrive —
-the experience, the atmosphere, the people, the design, and whether a place truly follows through on its sustainability claims.
+Some are mostly good photography and better branding.
 
-Some places are worth the hype.
+We look beyond the surface — at the experience, the atmosphere, the people, the environmental impact, and whether a place actually follows through on what it claims to be.
 
-Some are mostly marketing.
+Because beautiful travel is easy to sell.
 
-This is where we tell the difference.
+Thoughtful travel is harder to prove.
 
 ::: section-green
 ## Start Here
@@ -43,15 +42,15 @@ If you are new here, start with the idea behind the site:
 We look at the full picture — the stay, the service, the setting, the sustainability claims, and whether the place actually protects what makes it special.
 :::
 
-![](images/home/boulder-mountains.jpg){.full-image}
+![](images/home/boulder-mountains.webp){.full-image}
 
 :::::::::: section-green
-## What We Explore
+## What We Cover
 
 ::::::::: columns
 :::: {.column width="33%"}
 ::: card
-![](images/home/alpine-lakes.jpg)
+![](images/home/alpine-lakes.webp)
 
 ### Adventure
 
@@ -61,7 +60,7 @@ Remote places, wild landscapes, and the activities that make travel feel alive.
 
 :::: {.column width="33%"}
 ::: card
-![](images/home/family-beach.jpg)
+![](images/home/family-beach.webp)
 
 ### Family Travel
 
@@ -71,7 +70,7 @@ Beautiful places that still work when real life, kids, logistics, and budgets co
 
 :::: {.column width="33%"}
 ::: card
-![](images/home/egypt-temple.jpg)
+![](images/home/egypt-temple.webp)
 
 ### Global Perspective
 
@@ -88,7 +87,7 @@ From eco resorts to cultural destinations, we look at how travel impacts people 
 
 **Raja Ampat, Indonesia**
 
-Misool is the gold standard for sustainable luxury. From solar power and marine conservation to reef restoration and local community employment, it shows what an eco resort can look like when sustainability is built into the operation — not just added to the marketing.
+Misool is one of the few luxury eco resorts that genuinely backs up its sustainability claims with measurable conservation and local impact. From solar power and marine conservation to reef restoration and local community employment, it shows what an eco resort can look like when sustainability is built into the operation — not just added to the marketing.
 
 [Read the Misool review](posts/misool.qmd)
 :::
@@ -127,7 +126,7 @@ Whether sustainability claims are clear, measurable, and easy to verify.
 :::::
 ::::::
 
-![](images/home/sun-valley-sunset.jpg){.full-image}
+![](images/home/sun-valley-sunset.webp){.full-image}
 
 <p class="caption">
 

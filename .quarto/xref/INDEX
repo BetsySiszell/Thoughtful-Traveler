@@ -10,5 +10,20 @@
   },
   "posts/morgans-rock.qmd": {
     "morgans-rock.html": "fb757eae"
+  },
+  "faq.qmd": {
+    "faq.html": "db39be51"
+  },
+  "contact.qmd": {
+    "contact.html": "57ecec33"
+  },
+  "field-notes.qmd": {
+    "field-notes.html": "c2e8ce5c"
+  },
+  "posts/what-makes-a-place-worth-protecting.qmd": {
+    "what-makes-a-place-worth-protecting.html": "4fd724b1"
+  },
+  "posts/luxury-should-earn-its-footprint.qmd": {
+    "luxury-should-earn-its-footprint.html": "614751ed"
   }
 }
