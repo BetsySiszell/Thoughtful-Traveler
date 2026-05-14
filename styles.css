@@ -1,8 +1,6 @@
-/* css styles */
 /* Main site styling */
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap');
-
 
 body {
   background-color: #f7f3ec;
@@ -43,7 +41,7 @@ h3 {
   background-position: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* THIS is the key */
+  justify-content: space-between;
   padding: 3rem 4rem;
   margin-bottom: 3rem;
 }
@@ -83,121 +81,6 @@ h3 {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   opacity: 0.85;
-}
-.about-hero-image {
-  position: relative;
-  margin: 3rem 0 4rem 0;
-}
-.about-hero-image::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    90deg,
-    rgba(0,0,0,0.30) 0%,
-    rgba(0,0,0,0.12) 35%,
-    rgba(0,0,0,0.00) 65%
-  );
-  pointer-events: none;
-}
-
-.about-hero-image img {
-  width: 100%;
-  border-radius: 0;
-  display: block;
-}
-
-.about-hero-text {
-  position: absolute;
-  top: 2%;
-  left: 5%;
-  max-width: 520px;
-  color: white;
-   z-index: 2;
-}
-
-.about-hero-text h1 {
-  color: white;
-  font-size: 3.6rem;
-  line-height: 1.05;
-  text-shadow: 0 3px 14px rgba(0,0,0,0.45);
-  margin-bottom: 1rem;
-}
-
-.about-hero-text p {
-  font-size: 1.15rem;
-  text-shadow: 0 2px 10px rgba(0,0,0,0.45);
-}
-
-.diving-photo-wrapper {
-  position: relative;
-  max-width: 900px;
-  margin: 3rem auto;
-}
-
-.about-inline-image {
-  display: block;
-  width: 100%;
-  border-radius: 10px;
-}
-
-.diving-caption {
-  position: absolute;
-  bottom: 2rem;
-  left: 2rem;
-  color: rgba(255,255,255,0.95);
-  font-style: italic;
-  font-size: 1.5rem;
-  font-family: 'Playfair Display', serif;
-  text-shadow: 0 2px 10px rgba(0,0,0,0.75);
-  white-space: nowrap;
-  z-index: 2;
-}
-
-.diving-caption p {
-  color: rgba(255,255,255,0.95) !important;
-  margin: 0;
-}
-
-.hut-photo-wrapper {
-  position: relative;
-  max-width: 900px;
-  margin: 4rem auto;
-}
-
-.hut-inline-image {
-  display: block;
-  width: 100%;
-  border-radius: 10px;
-}
-
-.hut-caption {
-  position: absolute;
-  top: 2rem;
-  left: 2rem;
-  max-width: 55%;
-  color: rgba(255,255,255,0.88) !important;
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
-  font-size: 1.2rem;
-  line-height: 1.5;
-  text-shadow: 0 2px 10px rgba(0,0,0,0.7);
-  z-index: 2;
-}
-
-.hut-caption p,
-.hut-caption em {
-  color: rgba(255,255,255,0.88) !important;
-  margin: 0;
-}
-
-.post-hero-image {
-  width: 100%;
-  max-height: 700px;
-  object-fit: cover;
-  border-radius: 14px;
-  margin-bottom: 2.5rem;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
 }
 
 .section-soft {
@@ -252,16 +135,21 @@ a {
 a:hover {
   color: #2f4f2f;
 }
+
 .signature-line {
   font-family: 'Playfair Display', serif;
   font-size: 1.8rem;
   color: #536b42;
   margin-top: 2rem;
 }
+
+/* About page */
+
 .about-section {
   max-width: 750px;
   margin: 0 auto;
 }
+
 .about-section em {
   display: block;
   font-family: 'Playfair Display', serif;
@@ -269,10 +157,123 @@ a:hover {
   color: #536b42;
   margin: 1rem 0 2rem 0;
 }
+
 .about-section img {
   border-radius: 12px;
   margin: 1.5rem 0 2rem 0;
 }
+
+.about-hero-image {
+  position: relative;
+  margin: 3rem 0 4rem 0;
+}
+
+.about-hero-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(0,0,0,0.30) 0%,
+    rgba(0,0,0,0.12) 35%,
+    rgba(0,0,0,0.00) 65%
+  );
+  pointer-events: none;
+}
+
+.about-hero-image img {
+  width: 100%;
+  border-radius: 0;
+  display: block;
+}
+
+.about-hero-text {
+  position: absolute;
+  top: 2%;
+  left: 5%;
+  max-width: 520px;
+  color: white;
+  z-index: 2;
+}
+
+.about-hero-text h1 {
+  color: white;
+  font-size: 3.6rem;
+  line-height: 1.05;
+  text-shadow: 0 3px 14px rgba(0,0,0,0.45);
+  margin-bottom: 1rem;
+}
+
+.about-hero-text p {
+  font-size: 1.15rem;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.45);
+}
+
+.diving-photo-wrapper,
+.hut-photo-wrapper {
+  position: relative;
+  max-width: 900px;
+  margin: 3rem auto;
+}
+
+.about-inline-image,
+.hut-inline-image {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.diving-caption {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  color: rgba(255,255,255,0.95);
+  font-style: italic;
+  font-size: 1.5rem;
+  font-family: 'Playfair Display', serif;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.75);
+  white-space: nowrap;
+  z-index: 2;
+}
+
+.diving-caption p {
+  color: rgba(255,255,255,0.95) !important;
+  margin: 0;
+}
+
+.hut-caption {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  max-width: 55%;
+  color: rgba(255,255,255,0.88) !important;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.7);
+  z-index: 2;
+}
+
+.hut-caption p,
+.hut-caption em {
+  color: rgba(255,255,255,0.88) !important;
+  margin: 0;
+}
+
+/* Posts */
+
+.post-hero-image {
+  width: 100%;
+  max-height: 700px;
+  object-fit: cover;
+  border-radius: 14px;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* Contact */
+
 .contact-form {
   margin-top: 2rem;
 }
@@ -323,186 +324,169 @@ a:hover {
   background-color: #2f4f2f;
 }
 
-@media (max-width: 700px) {
-  .form-row {
-    flex-direction: column;
-    gap: 0;
-  }
-}
-
-/* ------------------------------
-   Mobile fixes
------------------------------- */
+/* Mobile */
 
 @media (max-width: 768px) {
 
-  html, body {
-    overflow-x: hidden;
+  html,
+  body {
     width: 100%;
+    overflow-x: hidden;
+  }
+
+  body {
+    font-size: 17px;
   }
 
   main,
   .content,
   .page-layout-custom,
-  .about-section,
-  .section-grid,
-  .review-grid,
-  .cards,
-  .card-grid {
-    max-width: 100%;
+  .about-section {
     width: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    max-width: 100%;
     box-sizing: border-box;
   }
 
-  /* Homepage hero */
+  h1 {
+    font-size: 2.7rem;
+    line-height: 1.05;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+    line-height: 1.1;
+  }
+
+  h3 {
+    font-size: 1.45rem;
+    line-height: 1.15;
+  }
+
   .hero {
     width: 100%;
     min-height: 70vh;
-    padding: 2rem 1.25rem;
+    padding: 2rem 1.5rem;
     background-position: center center;
     overflow: hidden;
-  }
-
-  .hero-title,
-  .hero h1 {
-    font-size: 3rem;
-    line-height: 0.95;
-    white-space: normal !important;
-    max-width: 100%;
-  }
-
-  .hero-bottom,
-  .hero p {
-    font-size: 1.25rem;
-    line-height: 1.35;
-    max-width: 100%;
-  }
-
-  /* Stack any desktop columns */
-  .home-grid,
-  .review-cards,
-  .cover-grid,
-  .latest-grid,
-  .what-we-cover,
-  .start-here,
-  .feature-grid {
-    display: block !important;
-    grid-template-columns: 1fr !important;
-    width: 100%;
-  }
-
-  .card,
-  .review-card,
-  .cover-card,
-  .feature-card {
-    width: 100% !important;
-    max-width: 100%;
-    margin-bottom: 1.5rem;
     box-sizing: border-box;
   }
 
-  /* Prevent single-letter vertical text */
-  h1, h2, h3, p, li, a {
-    word-break: normal;
-    overflow-wrap: normal;
-  }
-
-  /* About page banner */
-  .about-hero {
-    min-height: 420px;
-    padding: 2rem 1.25rem;
-    background-position: center center;
-  }
-
-  .about-hero h1 {
+  .hero-title h1 {
     font-size: 3rem;
-    line-height: 1;
-    max-width: 90%;
+    line-height: 0.95;
+    white-space: normal;
+    max-width: 100%;
   }
 
-  .about-hero p {
-    font-size: 1.1rem;
-    max-width: 90%;
+  .hero-bottom {
+    max-width: 100%;
   }
 
-  /* Image captions */
+  .hero-bottom h3 {
+    font-size: 1.55rem;
+    line-height: 1.15;
+  }
+
+  .hero-bottom p {
+    font-size: 1.2rem;
+    line-height: 1.45;
+    max-width: 100%;
+  }
+
+  .section-soft,
+  .section-green {
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .columns {
+    display: block !important;
+  }
+
+  .column {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: none !important;
+    margin: 0 0 1.5rem 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+  }
+
+  .card {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    height: auto;
+    margin: 0 0 1.5rem 0;
+    padding: 1.25rem;
+    box-sizing: border-box;
+  }
+
+  .card img {
+    height: 200px;
+  }
+
+  .card h3,
+  .card p,
+  .card a {
+    white-space: normal;
+    word-break: normal;
+    overflow-wrap: break-word;
+  }
+
+  .full-image {
+    border-radius: 18px;
+  }
+
+  .about-hero-image {
+    margin: 2rem 0 3rem 0;
+  }
+
+  .about-hero-text {
+    top: 8%;
+    left: 7%;
+    right: 7%;
+    max-width: 86%;
+  }
+
+  .about-hero-text h1 {
+    font-size: 2.6rem;
+    line-height: 1.05;
+  }
+
+  .about-hero-text p {
+    font-size: 1rem;
+    line-height: 1.35;
+  }
+
   .diving-caption,
   .hut-caption {
     left: 1rem;
     right: 1rem;
     bottom: 1rem;
-    font-size: 1.1rem;
-    white-space: normal !important;
+    top: auto;
+    max-width: none;
+    font-size: 1rem;
+    line-height: 1.35;
+    white-space: normal;
+  }
+
+  .post-hero-image {
+    max-height: 360px;
+    border-radius: 12px;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 0;
   }
 
   img {
     max-width: 100%;
     height: auto;
-  }
-}
-
-@media (max-width: 768px) {
-
-  .start-section,
-  .cover-section,
-  .reviews-section,
-  .home-section,
-  .home-content {
-    width: 100% !important;
-    max-width: 100% !important;
-    padding: 2rem 1rem !important;
-    margin: 0 auto !important;
-    box-sizing: border-box;
-  }
-
-  .start-grid,
-  .cover-grid,
-  .review-grid,
-  .reviews-grid,
-  .home-grid {
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 1.5rem !important;
-    width: 100% !important;
-  }
-
-  .start-card,
-  .cover-card,
-  .review-card,
-  .home-card {
-    width: 100% !important;
-    max-width: 100% !important;
-    min-width: 0 !important;
-    padding: 1.5rem !important;
-    margin: 0 0 1.5rem 0 !important;
-    box-sizing: border-box;
-  }
-
-  .start-card *,
-  .cover-card *,
-  .review-card *,
-  .home-card * {
-    max-width: 100% !important;
-    white-space: normal !important;
-    word-break: normal !important;
-    overflow-wrap: break-word !important;
-  }
-
-  .start-card h2,
-  .cover-card h3,
-  .review-card h3,
-  .home-card h3 {
-    font-size: 2rem !important;
-    line-height: 1.1 !important;
-  }
-
-  .start-card p,
-  .cover-card p,
-  .review-card p,
-  .home-card p {
-    font-size: 1rem !important;
-    line-height: 1.45 !important;
   }
 }
